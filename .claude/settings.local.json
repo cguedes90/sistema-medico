@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm start)",
+      "Bash(set PORT=3002)",
+      "Bash(set PORT=3001)",
+      "Bash(curl:*)",
+      "Bash(find:*)",
+      "Bash(set PORT=3003)",
+      "Bash(npx cross-env PORT=3002 react-scripts start)",
+      "Bash(grep:*)",
+      "Bash(timeout 10 npm run build)",
+      "Bash(timeout:*)",
+      "Bash(cmd /c:*)",
+      "Bash(npx cross-env PORT=3003 react-scripts start)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(del nul)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

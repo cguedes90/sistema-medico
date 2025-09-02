@@ -1,0 +1,5792 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.sqlite
+*.db
+*.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# AWS credentials
+.aws/
+
+# OpenAI API keys
+.openai/
+
+# Claude API keys
+.anthropic/
+
+# Test files
+**/*.test.js
+**/*.spec.js
+**/*.test.ts
+**/*.spec.ts
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Build artifacts
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+kube/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Vagrant
+Vagrantfile
+
+# Ansible
+ansible/
+
+# Chef
+chef/
+
+# Puppet
+puppet/
+
+# Salt
+salt/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+kube/
+
+# Helm
+helm/
+
+# Serverless
+.serverless/
+
+# AWS
+.aws/
+amplify/
+amplify/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Codecov
+coverage/
+.nyc_output/
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+.babelrc.js
+.babelrc.mjs
+.babelrc.cjs
+babel.config.js
+babel.config.json
+babel.config.mjs
+babel.config.cjs
+
+# ESLint
+.eslintcache
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Parcel
+.cache
+.parcel-cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDK
+cdk.out/
+
+# AWS SAM
+.sam/
+
+# Serverless Framework
+.serverless/
+
+# Pulumi
+Pulumi.yaml
+Pulumi*.yaml
+.pulumi/
+
+# Snyk
+.snyk/
+
+# SonarQube
+.sonarqube/
+
+# Codecov
+codecov.yml
+codecov.yml.bak
+
+# Jest
+.jest/
+
+# Testing Library
+.testing-library/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Nightwatch
+reports/
+screenshots/
+
+# Webpack
+webpack-stats.json
+
+# Babel
+.babelrc
+.babelrc.json
+babel.config.js
+babel.config.json
+
+# ESLint
+.eslintcache
+.eslintignore
+
+# StyleLint
+.stylelintcache
+.stylelintignore
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup
+.rollup.cache
+
+# Vite
+.vite/
+
+# Vue
+.vite/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/
+
+# React
+.react/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Grunt
+.grunt/
+
+# Bower
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+# jspm
+jspm_packages/
+
+# Composer
+composer.phar
+vendor/
+
+# PHP
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Local build files
+build/
+local_build/
+
+# Local development files
+dev/
+local/
+
+# Production files
+prod/
+production/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+.k8s/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# DigitalOcean
+.do/
+
+# AWS CDD
