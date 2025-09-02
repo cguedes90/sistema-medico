@@ -6,6 +6,7 @@ import { Box, CircularProgress } from '@mui/material';
 // Components
 import Layout from './components/Layout/Layout';
 import Login from './pages/Auth/Login';
+import LandingPage from './pages/LandingPage/LandingPage';
 import { NotificationProvider } from './components/NotificationProvider';
 import Dashboard from './pages/Dashboard/Dashboard';
 import PatientList from './pages/Patients/PatientList';
@@ -67,64 +68,75 @@ function MainApp() {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      {isAuthenticated ? (
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            
-            {/* Patients Routes */}
-            <Route path="/patients" element={<PatientList />} />
-            <Route path="/patients/new" element={<PatientCreate />} />
-            <Route path="/patients/:id" element={<PatientDetail />} />
-            
-            {/* Documents Routes */}
-            <Route path="/documents" element={<DocumentList />} />
-            <Route path="/documents/upload" element={<DocumentUpload />} />
-            
-            {/* Notes Routes */}
-            <Route path="/notes" element={<NoteList />} />
-            <Route path="/notes/new" element={<NoteCreate />} />
-            
-            {/* Appointments Routes */}
-            <Route path="/appointments" element={<AppointmentList />} />
-            <Route path="/appointments/new" element={<AppointmentCreate />} />
-            <Route path="/appointments/:id" element={<AppointmentDetail />} />
-            
-            {/* AI Routes */}
-            <Route path="/ai" element={<AIDashboard />} />
-            <Route path="/ai/diagnosis" element={<DiagnosisAssistant />} />
-            
-            {/* Reports Routes */}
-            <Route path="/reports" element={<ReportsDashboard />} />
-            <Route path="/reports/custom" element={<CustomReport />} />
-            
-            {/* Prescriptions Routes */}
-            <Route path="/prescriptions" element={<PrescriptionList />} />
-            <Route path="/prescriptions/create" element={<PrescriptionCreate />} />
-            
-            {/* Telemedicine Routes */}
-            <Route path="/telemedicine" element={<TelemedicineList />} />
-            <Route path="/telemedicine/sessions/:id" element={<TelemedicineSession />} />
-            
-            {/* Medical Certificates Routes */}
-            <Route path="/medical-certificates" element={<MedicalCertificateList />} />
-            <Route path="/medical-certificates/create" element={<MedicalCertificateCreate />} />
-            <Route path="/medical-certificates/:id" element={<MedicalCertificateView />} />
-            
-            {/* Profile Routes */}
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/perfil" element={<Profile />} />
-            
-            <Route path="*" element={<Dashboard />} />
-          </Routes>
-        </Layout>
-      ) : (
-        <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="*" element={<Login />} />
-        </Routes>
-      )}
+      <Routes>
+        {/* Landing Page Route - Always accessible */}
+        <Route path="/" element={<LandingPage />} />
+        
+        {/* System Routes - Protected */}
+        <Route path="/sistema/*" element={
+          isAuthenticated ? (
+            <Layout>
+              <Routes>
+                <Route path="/" element={<Dashboard />} />
+                <Route path="/dashboard" element={<Dashboard />} />
+                
+                {/* Patients Routes */}
+                <Route path="/patients" element={<PatientList />} />
+                <Route path="/patients/new" element={<PatientCreate />} />
+                <Route path="/patients/:id" element={<PatientDetail />} />
+                
+                {/* Documents Routes */}
+                <Route path="/documents" element={<DocumentList />} />
+                <Route path="/documents/upload" element={<DocumentUpload />} />
+                
+                {/* Notes Routes */}
+                <Route path="/notes" element={<NoteList />} />
+                <Route path="/notes/new" element={<NoteCreate />} />
+                
+                {/* Appointments Routes */}
+                <Route path="/appointments" element={<AppointmentList />} />
+                <Route path="/appointments/new" element={<AppointmentCreate />} />
+                <Route path="/appointments/:id" element={<AppointmentDetail />} />
+                
+                {/* AI Routes */}
+                <Route path="/ai" element={<AIDashboard />} />
+                <Route path="/ai/diagnosis" element={<DiagnosisAssistant />} />
+                
+                {/* Reports Routes */}
+                <Route path="/reports" element={<ReportsDashboard />} />
+                <Route path="/reports/custom" element={<CustomReport />} />
+                
+                {/* Prescriptions Routes */}
+                <Route path="/prescriptions" element={<PrescriptionList />} />
+                <Route path="/prescriptions/create" element={<PrescriptionCreate />} />
+                
+                {/* Telemedicine Routes */}
+                <Route path="/telemedicine" element={<TelemedicineList />} />
+                <Route path="/telemedicine/sessions/:id" element={<TelemedicineSession />} />
+                
+                {/* Medical Certificates Routes */}
+                <Route path="/medical-certificates" element={<MedicalCertificateList />} />
+                <Route path="/medical-certificates/create" element={<MedicalCertificateCreate />} />
+                <Route path="/medical-certificates/:id" element={<MedicalCertificateView />} />
+                
+                {/* Profile Routes */}
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/perfil" element={<Profile />} />
+                
+                <Route path="*" element={<Dashboard />} />
+              </Routes>
+            </Layout>
+          ) : (
+            <Login />
+          )
+        } />
+        
+        {/* Login Route */}
+        <Route path="/login" element={<Login />} />
+        
+        {/* Fallback to Landing Page */}
+        <Route path="*" element={<LandingPage />} />
+      </Routes>
     </Box>
   );
 }
