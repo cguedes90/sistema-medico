@@ -5790,3 +5790,4 @@ storybook-static/
 
 # AWS CDD# React public directory exception
 !frontend/public/
+!frontend/src/pages/Reports/
