@@ -35,7 +35,7 @@ const DatabaseSync = () => {
   const [syncMessage, setSyncMessage] = useState('');
   const [openDialog, setOpenDialog] = useState(false);
   const [databaseConfig, setDatabaseConfig] = useState({
-    url: 'postgresql://neondb_owner:npg_NtjRzF0Lc1Gu@ep-muddy-cake-achnuvpa-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require',
+    url: process.env.REACT_APP_DATABASE_URL || '',
     autoSync: true
   });
   const [lastSync, setLastSync] = useState(null);
@@ -206,7 +206,7 @@ const DatabaseSync = () => {
                 label="URL do Banco de Dados"
                 disabled
               >
-                <MenuItem value="postgresql://neondb_owner:npg_NtjRzF0Lc1Gu@ep-muddy-cake-achnuvpa-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require">
+                <MenuItem value={process.env.REACT_APP_DATABASE_URL || ''}>
                   Neon PostgreSQL (Principal)
                 </MenuItem>
               </Select>

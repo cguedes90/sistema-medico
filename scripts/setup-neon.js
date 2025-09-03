@@ -66,7 +66,7 @@ async function setupDatabase() {
     console.log('');
     console.log('📋 Resumo da configuração:');
     console.log('   • Banco de dados: Neon PostgreSQL');
-    console.log('   • URL: postgresql://neondb_owner:npg_NtjRzF0Lc1Gu@ep-muddy-cake-achnuvpa-pooler.sa-east-1.aws.neon.tech/neondb');
+    console.log('   • URL: [DATABASE_URL configurada via variável de ambiente]');
     console.log('   • Tabelas criadas: users, patients, documents, notes, appointments, ai_analyses, audit_logs');
     console.log('   • Views criadas: patient_summary, user_activity');
     console.log('   • Índices criados para performance');

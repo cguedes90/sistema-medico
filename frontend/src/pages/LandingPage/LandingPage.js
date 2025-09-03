@@ -25,8 +25,7 @@ import {
   ArrowForward as ArrowIcon,
   MedicalServices as MedicalIcon,
   Analytics as AnalyticsIcon,
-  Cloud as CloudIcon,
-  PhoneAndroid as MobileIcon
+  Cloud as CloudIcon
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 
