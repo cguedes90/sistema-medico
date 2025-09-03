@@ -1,0 +1,4 @@
+npg_NtjRzF0Lc1Gu
+postgresql://neondb_owner:npg_NtjRzF0Lc1Gu@ep-muddy-cake-achnuvpa-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+postgresql://neondb_owner:npg_NtjRzF0Lc1Gu@ep-muddy-cake-achnuvpa-pooler.sa-east-1.aws.neon.tech/neondb
+seu_email@gmail.com
