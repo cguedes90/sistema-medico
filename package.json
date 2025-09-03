@@ -1,0 +1,25 @@
+{
+  "name": "sistema-medico",
+  "version": "1.0.0",
+  "description": "Sistema Médico Completo com IA - Landing Page + Sistema Médico",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd frontend && npm start",
+    "install-frontend": "cd frontend && npm install",
+    "vercel-build": "cd frontend && npm install && npm run build"
+  },
+  "keywords": [
+    "medical",
+    "system",
+    "healthcare",
+    "react",
+    "ai"
+  ],
+  "author": "Sistema Médico Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
