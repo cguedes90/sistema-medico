@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name": "sistema-medico",
   "builds": [
     {
       "src": "frontend/package.json",
@@ -11,7 +12,8 @@
   ],
   "routes": [
     {
-      "handle": "filesystem"
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
