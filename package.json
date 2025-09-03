@@ -4,10 +4,10 @@
   "description": "Sistema Médico Completo com IA - Landing Page + Sistema Médico",
   "private": true,
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm install --legacy-peer-deps && npm run build",
     "start": "cd frontend && npm start",
-    "install-frontend": "cd frontend && npm install",
-    "vercel-build": "cd frontend && npm install && npm run build"
+    "install-frontend": "cd frontend && npm install --legacy-peer-deps",
+    "vercel-build": "cd frontend && npm install --legacy-peer-deps && npm run build"
   },
   "keywords": [
     "medical",
