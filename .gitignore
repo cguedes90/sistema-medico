@@ -5788,4 +5788,5 @@ storybook-static/
 # DigitalOcean
 .do/
 
-# AWS CDD
+# AWS CDD# React public directory exception
+!frontend/public/
